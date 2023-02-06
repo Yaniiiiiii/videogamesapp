@@ -1,13 +1,13 @@
 import "./App.css";
 import Menu from "./components/menu/menu";
+import AppRoutes from "./routes/routes";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Menu></Menu>
-      </header>
-    </div>
+    <>
+      <Menu></Menu>
+      <AppRoutes></AppRoutes>
+    </>
   );
 }
 
